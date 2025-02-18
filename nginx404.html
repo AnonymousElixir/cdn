@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>404 Not Found</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let serverAddress = document.getElementById("server-address");
+            serverAddress.innerHTML = "Apache/2.4.29 (Ubuntu) Server at " + window.location.hostname + " Port 80";
+        });
+    </script>
+</head>
+<body>
+    <h1>Not Found</h1>
+    <p>The requested URL was not found on this server.</p>
+    <hr>
+    <address id="server-address">Apache/2.4.29 (Ubuntu) Server at [Loading...] Port 80</address>
+</body>
+</html>
